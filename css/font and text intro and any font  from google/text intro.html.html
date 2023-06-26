@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .txt-clr{ color: greenyellow; }
+        .txt-align-center{ text-align: center; }
+        .txt-align-left{ text-align:left; }
+        .txt-align-right{ text-align:right; }
+        .txt-align-end{ text-align:end; }
+        .txt-align-start{ text-align:start; }
+        .txt-align-justify{ text-align:justify; }
+        .txt-align-justify{ text-align:justify; direction: rtl; }
+        .txt-direction{ text-align:justify; direction: rtl; unicode-bidi: plaintext; }
+
+        p[class*="txt-align"]{
+            width: 200px;
+            box-shadow: 2px 2px 5px grey;
+        }
+        .text-decor-line-through{ text-decoration: line-through; }
+        .text-decor-overline{ text-decoration: overline; }
+        .text-decor-underline{ text-decoration: underline; }
+        .remove-underline a:hover{
+            box-shadow: 2px 2px 5px grey ;
+        }
+        .remove-underline a{
+            background-color: grey;
+            color: black;
+            padding:5px 10px;
+            display: inline-block;
+            text-decoration: none;
+            border-radius: 3px;
+        }
+        .text-indent{
+            text-indent: 20px;
+        }
+        .text-Transformation{
+            word-spacing: 10px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li> Text Color</li>
+        <li> Text Alignment</li>
+        <li> Text Decoration</li>
+        <li> Removing the Default Underline from Links</li>
+        <li> Text Transformation</li>
+        <li> Text Indentation</li>
+        <li> Letter Spacing</li>
+        <li> Word Spacing</li>
+    </ul>
+    <p class="txt-clr">1Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa deleniti temporibus accusamus eos nostrum. Nemo iste, optio dicta repudiandae illum inventore, quas natus quasi delectus eos dolores rerum recusandae minus!</p>
+    <p class="txt-align-center">2txt-align-center Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa deleniti temporibus accusamus eos nostrum. Nemo iste, optio dicta repudiandae illum inventore, quas natus quasi delectus eos dolores rerum recusandae minus!</p>
+    <p class="txt-align-left ">3txt-align-left Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa deleniti temporibus accusamus eos nostrum. Nemo iste, optio dicta repudiandae illum inventore, quas natus quasi delectus eos dolores rerum recusandae minus!</p>
+    <p class="txt-align-right">4txt-align-right Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa deleniti temporibus accusamus eos nostrum. Nemo iste, optio dicta repudiandae illum inventore, quas natus quasi delectus eos dolores rerum recusandae minus!</p>
+    <p class="txt-align-start">5txt-align-start Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa deleniti temporibus accusamus eos nostrum. Nemo iste, optio dicta repudiandae illum inventore, quas natus quasi delectus eos dolores rerum recusandae minus!</p>
+    <p class="txt-align-end">6txt-align-end Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa deleniti temporibus accusamus eos nostrum. Nemo iste, optio dicta repudiandae illum inventore, quas natus quasi delectus eos dolores rerum recusandae minus!</p>
+    <p class="txt-align-justify">7txt-align-justify Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa deleniti temporibus accusamus eos nostrum. Nemo iste, optio dicta repudiandae illum inventore, quas natus quasi delectus eos dolores rerum recusandae minus!</p>
+    <p class="txt-direction">8txt-direction Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa deleniti temporibus accusamus eos nostrum. Nemo iste, optio dicta repudiandae illum inventore, quas natus quasi delectus eos dolores rerum recusandae minus!</p>
+    <div class="text-decor-line-through">9text-decor-line-through</div>
+    <div class="text-decor-overline">10text-decor-overline</div>
+    <div class="text-decor-underline">11text-decor-underline</div>
+    <div class="remove-underline"><a href="#">12Click me</a></div>
+    <p class="text-indent">13Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ratione vero rem omnis culpa ducimus expedita similique consequatur est, provident ea tempore mollitia doloribus quis deleniti perspiciatis consectetur neque aliquam?</p>
+    <p class="text-Transformation">14Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ratione vero rem omnis culpa ducimus expedita similique consequatur est, provident ea tempore mollitia doloribus quis deleniti perspiciatis consectetur neque aliquam?</p>
+</body>
+</html>

@@ -1,0 +1,7 @@
+@font-face {
+    font-family:Dauphin ;
+    src: url("../font/Dauphin.ttf");
+}
+body{
+    font-family:Dauphin ;
+}

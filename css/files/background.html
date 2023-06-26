@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+
+        div[class*="background"]{
+            height:400px;
+            width:1000px;
+            border:10px dashed green;
+            margin:50px;
+            padding:50px;
+        }
+
+        .background-color {
+            background-color:gray;
+        }
+
+        .background-image {
+            background-image:url('file:///C:/Users/helLO/Desktop/wd/css/image/background%20image.jpeg')
+        }
+
+        .background-repeat{
+            background-image:url('file:///C:/Users/helLO/Desktop/wd/css/image/background%20image.jpeg');
+            background-repeat:no-repeat;
+        }
+
+        .background-clip {
+            background-image:url('file:///C:/Users/helLO/Desktop/wd/css/image/background%20image.jpeg');
+            background-clip: border-box;
+            background-clip: padding-box;
+            background-clip: content-box;
+
+        }
+
+        .background-origin {
+            background-image:url('file:///C:/Users/helLO/Desktop/wd/css/image/background%20image.jpeg');
+            background-origin:border-box;
+            background-origin:padding-box;
+            background-origin:content-box;
+
+        }
+
+        .background-position1 {
+            background-image:url('file:///C:/Users/helLO/Desktop/wd/css/image/background%20image.jpeg');
+            background-repeat:no-repeat;
+            background-position:40px 100px;
+        }
+
+        .background-position2 {
+            background-image:url('file:///C:/Users/helLO/Desktop/wd/css/image/background%20image.jpeg');
+            background-repeat:no-repeat;
+            background-position:center ;
+        }
+
+        .background-position3 {
+            background-image:url('file:///C:/Users/helLO/Desktop/wd/css/image/background%20image.jpeg');
+            background-repeat:no-repeat;
+            background-position:top;
+        }
+        
+        .background-attachment {
+            background-image:url('file:///C:/Users/helLO/Desktop/wd/css/image/background%20image.jpeg');
+            background-attachment:fixed;
+        }
+
+        .background-size {
+            background-image:url('file:///C:/Users/helLO/Desktop/wd/css/image/background%20image.jpeg');
+            background-size:cover;
+        }
+
+        .background-shorthand {
+            background: url(file:///C:/Users/helLO/Desktop/wd/css/image/background%20image.jpeg) no-repeat center center /cover;
+        }
+
+        .background-linear-gradient {
+            background: rgb(210,38,205);
+            background: linear-gradient(90deg, rgba(210,38,205,1) 0%, rgba(142,206,125,1) 21%, rgba(100,172,233,0.7401085434173669) 32%,
+            rgba(210,204,132,1) 42%, rgba(201,46,158,1) 64%, rgba(194,110,129,1) 82%, rgba(187,173,213,1) 100%, rgba(0,212,255,1) 100%);
+        }
+
+        .background-radial-gradient {
+            background: rgb(210,38,205);
+            background: radial-gradient(circle, rgba(210,38,205,1) 0%, rgba(142,206,125,1) 21%, rgba(100,172,233,0.7401085434173669) 32%, rgba(210,204,132,1) 42%,
+            rgba(201,46,158,1) 64%, rgba(194,110,129,1) 82%, rgba(187,173,213,1) 100%, rgba(0,212,255,1) 100%);
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>background-color</li>
+        <li>background-image</li>
+        <li>background-repeat</li>
+        <li>background-clip</li>
+        <li>background-origin</li>
+        <li>background-position</li>
+        <li>background-attachment</li>
+        <li>background-size</li>
+    </ul>
+    <div class="test"></div>
+    <div class="data"></div>
+    <div class="something"></div>
+    <div class="background-color">
+        <h2>background-color</h2>
+    </div>
+    <div class="background-image">
+        <h2>background-image</h2>
+    </div>
+    <div class="background-repeat">
+        <h2>background-repeat</h2>
+    </div>
+    <div class="background-clip">
+        <h2>background-clip</h2>
+    </div>
+    <div class="background-origin">
+        <h2>background-origin</h2>
+    </div>
+    <div class="background-position1">
+        <h2>background-position1</h2>
+        <h3>div move left and top use for this</h3>
+    </div>
+    <div class="background-position2">
+        <h2>background-position2</h2>
+    </div>
+    <div class="background-position3">
+        <h2>background-position3</h2>
+    </div>
+    
+    <div class="background-attachment">
+        <h2>background-attachment</h2>
+    </div>
+    <div class="background-size">
+        <h2>background-size</h2>
+    </div>
+    <div class="background-shorthand">
+        <h2>background-shorthand</h2>
+    </div>
+    <div class="background-linear-gradient">
+        <h2>background-linear-gradient</h2>
+    </div>
+    <div class="background-radial-gradient">
+        <h2>background-radial-gradient</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ad, rem eius, explicabo est aspernatur beatae quam aliquid error dolor soluta? Quisquam, ratione minus quod dicta cum quasi sunt voluptates!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ad, rem eius, explicabo est aspernatur beatae quam aliquid error dolor soluta? Quisquam, ratione minus quod dicta cum quasi sunt voluptates!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ad, rem eius, explicabo est aspernatur beatae quam aliquid error dolor soluta? Quisquam, ratione minus quod dicta cum quasi sunt voluptates!</p>
+    </div>
+</body>
+
+</html>
