@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Header</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{ margin: 0;padding: 0;box-sizing: border-box; font-family: sans-serif; }
+        header{
+            background-color: #7531FA;
+            color: white;
+            line-height: 70px;
+        }
+        .navbar li { display: inline-block; margin-left:20px; }
+        .navbar li a { display: inline-block; color:#abb8c3; text-decoration: none;}
+        .row{ display: flex; }
+        .ml-a{ margin-left: auto; padding-right:30px; font-size:15px; }
+        .logo{ padding-left: 10px; font-size:30px; font-weight:bold; padding-right: 10px; }
+        .container-fluid{ width: 97%; margin: 0 auto; }
+        i {
+            padding:10px;
+            color:white;
+        }
+
+        .navbar li a:hover {
+            color:white;
+        }
+
+        div {
+            display:inline-block;
+        }
+        i:hover{
+            height:50px;
+            width:50px; 
+            background-color:green;
+            font-size:30px;
+        }
+</style>
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+    
+                <div class="logo">
+                    <i class="fa-brands fa-bootstrap"></i>
+                </div>
+                <nav>
+                    <ul class="navbar">
+                        <li><a class="home" href="#">Docs</a></li>
+                        <li><a href="#">Examples</a></li>
+                        <li><a href="#">Icons</a></li>
+                        <li><a href="#">Themes Blog</a></li>
+                    </ul>
+                </nav>
+                <div class="ml-a">
+                    <div>
+                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-square-twitter"></i>
+                        <i class="fa-sharp fa-solid fa-spinner"></i>
+                    </div>
+                    <div style="padding-left:25px;">
+                        v5.3
+                        <i class="fa-sharp fa-solid fa-caret-down"></i>
+                    </div>
+                    <div style="padding-left:25px;">
+                        <i class="fa-solid fa-sun"></i>
+                        <i class="fa-sharp fa-solid fa-caret-down"></i>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>

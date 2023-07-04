@@ -7,9 +7,6 @@
     font-family:Dauphin ;
     src: url("../font/Dauphin.ttf");
 }
-body{
-    
-}
 
 * div {
     position: relative;
@@ -17,7 +14,6 @@ body{
 
 a:hover {
     color:white;
-
 }
 
 .main {
@@ -85,25 +81,8 @@ p {
   }
   
   @keyframes example {
-     
     100% { left:0px; bottom:50px;}
-    
   }
-
-h4 {
-    margin: 10px 10px 5px 10px;
-    font-size: 14px;
-    line-height: 18px;
-    text-align: center;
-    font-style: italic;
-}
-
-h5 {
-    margin: 5px 10px 20px 10px;
-    font-size: 12px;
-    line-height: 14px;
-    text-align: center;
-}
 
 .float-left {
     float: left;
@@ -142,19 +121,16 @@ table {
 .boxed {
     clear: both;
     text-align: center;
-    margin: 10px 3% 10px 3%;
 }
 
 .lnk {
     color: #d00;
     font-weight: 700;
-
 }
 
 .margin {
     width:80%;
     margin-left:150px;
-
 }
 
 .ab p {
@@ -170,12 +146,6 @@ table {
 
 .space {
     height: 90px;
-}
-
-.help {
-    text-align: center;
-    width:80%;
-    margin-left:140px;
 }
 
 hr {

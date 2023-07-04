@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .row {
+            display: flex;
+            border: 2px solid rgb(251, 250, 247);
+            text-align:center;
+        }
+
+        .height {
+            height: 250px;
+        }
+
+        .child--featured {
+            flex-grow: 1;
+            background-color: red;
+        }
+
+        .child--featured1 {
+            flex-grow: 2;
+            background-color: rgb(125, 48, 48);
+        }
+
+        .child--featured2 {
+            flex-grow: 3;
+            background-color: rgb(125, 48, 48);
+        }
+    </style>
+
+    <div class="row height">
+        <div class="col child--featured1">Col2</div>
+        <div class="col child--featured" style="background-color:green;">Col3</div>
+        <div class="col child--featured2">Col4</div>
+    </div>
+
+    <div class="row">
+        <div class="col child--featured2">Col2</div>
+        <div class="col child--featured1" style="background-color:green;">Col3</div>
+        <div class="col child--featured">Col4</div>
+    </div>
+
+
+</body>
+
+</html>
